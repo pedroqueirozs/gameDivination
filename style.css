@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box
+    ;
+    margin: 0;
+padding: 0;
+font-family: 'Spicy Rice', cursive;
+}
+:root {
+    font-size: 62.5%;
+}
+body{
+    background-color: #21822B;
+    font-size: 1.6rem;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.hide{
+    display:none ;
+}
+
+.screem2 button{
+    border-radius: 5rem;
+
+}
+.container{
+    margin-top: -12rem;
+    width:min(50rem ,90%);
+    height: 30rem;
+    background-color: white;
+    color: black;
+    border-radius: 1.5rem;
+    text-align: center;
+    padding-top: 2.5rem;
+text-transform: uppercase;
+box-shadow: 0px 2px 4px black;
+}
+.container h1{
+    margin-bottom: 3.5rem;
+}
+.container p{
+    margin-bottom: 4.5rem;
+}
+.container input, button{
+    width: 8.5rem;
+    height: 3.5rem;
+    border: none;
+}
+.container input {
+    background-color: rgb(218, 205, 205);
+    margin-right: 0;
+    border-radius: 4px 0 0px 4px;
+}
+.container button {
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+    margin-left: 0;
+    border-radius: 0 4px 4px 0;
+}
+button:hover{
+    background-color:rgb(64, 64, 206) ;
+}
+
+form{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+#tentNovamente{
+    margin-top: 7.5rem;
+    border-radius: 5px;
+    width: 30rem;
+    height: 5rem;
+    
+}
+
